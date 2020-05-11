@@ -22,10 +22,10 @@ Tareas principales:
 
 #### Recursos utilizados:
 
-[X] [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#)  
-[X] [Python 3.8.2](https://www.python.org/psf/)  
-[X] [Django 3.0.6](https://docs.djangoproject.com/es/3.0/)  
-[X] [Requests](https://requests.readthedocs.io/en/master/)  
-[X] [Bootstrap4 for Django](https://github.com/zostera/django-bootstrap4)  
-[X] [Template gratuito](https://www.free-css.com/free-css-templates/page107/the-web-news)
+- [X] [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#)  
+- [X] [Python 3.8.2](https://www.python.org/psf/)  
+- [X] [Django 3.0.6](https://docs.djangoproject.com/es/3.0/)  
+- [X] [Requests](https://requests.readthedocs.io/en/master/)  
+- [X] [Bootstrap4 for Django](https://github.com/zostera/django-bootstrap4)  
+- [X] [Template gratuito](https://www.free-css.com/free-css-templates/page107/the-web-news)
 
