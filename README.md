@@ -13,16 +13,19 @@ Tareas principales:
 - Se instalaron las bibliotecas requests y bs4 (BeautifulSoup4)
 - Se analizó el DOM del sitio lanacion.com para extraer las principales noticias exhibidas en la home del portal
 - Con BeautifulSoup4 se extrajeron y parsearon en una lista, un diccionario por cada noticia, incluyendo título, subtítulo, link y foto.
-- Se pasó esta lista como contexto a nuestro sitio.
+- Se pasó esta lista como contexto a nuestro sitio en la página principal.
 - Se cargó el contenido aprovechando el formato bootstrap 4 que contenía el template.
+
+
+
 
 
 #### Recursos utilizados:
 
-[X] BeautifulSoup4  
-[X] Python 3.7   
-[X] Django 3.0.6  
-[X] Requests  
-[X] Django-bootstrap4   
-[X] Template gratuito https://www.free-css.com/free-css-templates/page107/the-web-news
+[X] [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#)  
+[X] [Python 3.8.2](https://www.python.org/psf/)  
+[X] [Django 3.0.6](https://docs.djangoproject.com/es/3.0/)  
+[X] [Requests](https://requests.readthedocs.io/en/master/)  
+[X] [Bootstrap4 for Django](https://github.com/zostera/django-bootstrap4)  
+[X] [Template gratuito](https://www.free-css.com/free-css-templates/page107/the-web-news)
 
