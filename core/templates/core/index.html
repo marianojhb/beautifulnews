@@ -1,0 +1,36 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block title %}Home{% endblock title %}
+
+{% block content %}
+  <div id="content">
+    <!-- begin post -->
+    {% for articulo in lanacion %}
+    <div class="post">
+      <div class="thumb">
+        <a href="{{articulo.link}}">
+        <img src="{{articulo.foto}}">
+        </a>
+      </div>
+      <h2><a href="{{articulo.link}}">{{ articulo.titulo }}</a></h2>
+      <p class="date">Posted on January 7, 2008 by admin</p>
+      <p>{{ articulo.subtitulo }}</p>
+      <a class="continue" href="{{articulo.link}}">Continuar Leyendo</a>
+    </div>
+    {% endfor %}
+
+
+
+
+    <!-- begin post navigation -->
+    <div class="postnav">
+      <ul>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">&raquo;</a></li>
+      </ul>
+      <div class="break"></div>
+    </div>
+    <!-- end post navigation -->
+  </div>
+{% endblock content %}
