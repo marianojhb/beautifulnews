@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from datetime import datetime
 import requests
 from bs4 import BeautifulSoup
 
@@ -25,7 +26,9 @@ def home(request):
             subtitulo = ""
         link =  url[:-1] + articulo.a['href']
 
-        data.append({"titulo" : titulo, "subtitulo" : subtitulo, "link": link, "foto": foto })
+        fecha = datetime.now
+
+        data.append({"titulo" : titulo, "subtitulo" : subtitulo, "link": link, "foto": foto , "fecha" : fecha})
  
     return render(request,"core/index.html", {"lanacion": data})
 
